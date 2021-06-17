@@ -1,6 +1,6 @@
 {
   "name": "angular-cropperjs",
-  "description": "CropperJS integration for Angular +6",
+  "description": "CropperJS integration for Angular +8",
   "version": "1.0.1",
   "repository": {
     "type": "git",
