@@ -46,7 +46,7 @@ export class CropperComponent implements OnInit {
      * Image loaded
      * @param ev
      */
-    imageLoaded(ev: Event) {
+    public imageLoaded(ev: Event): void {
 
         //
         // Unset load error state
@@ -115,7 +115,7 @@ export class CropperComponent implements OnInit {
      * Image load error
      * @param event
      */
-    imageLoadError(event: any) {
+    public imageLoadError(event: any): void {
 
         //
         // Set load error state
@@ -130,7 +130,7 @@ export class CropperComponent implements OnInit {
      * Export canvas
      * @param base64
      */
-    exportCanvas(base64?: any) {
+    public exportCanvas(base64?: any): void {
 
         //
         // Get and set image, crop and canvas data
